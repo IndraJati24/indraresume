@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 * {
   margin: 0;
@@ -45,11 +46,12 @@ hr {
   margin-left: 10px;
 }
 .content {
-  font-size: 20px;
-  text-transform: uppercase;
+  font-size: 24px;
+  text-transform: capitalize;
   margin: 10px 10px 15px 10px;
   border: 1px solid transparent;
-  box-shadow: 5px 10px #fc814a;
+  box-shadow: 5px 10px #009432;
+  color:#009432
 }
 #container {
   width: 830px;
@@ -72,12 +74,13 @@ hr {
 #img {
   display: flex;
   justify-content: center;
+  margin-top: 25px;
 }
 #img img{
   height: 100px;
-  width: 150px;
+  width: 120px;
   border: 1px solid transparent;
-  border-radius:50%
+  border-radius:50%;
 }
 
 #tittle {
@@ -123,7 +126,7 @@ hr {
 }
 .iconInterest i {
   font-size: 20px;
-  border: 1px solid;
+  border: 1px solid #564256;
   border-radius: 100px;
   padding: 10px;
 }
@@ -144,25 +147,29 @@ hr {
 
 }
 #right_about h2 {
-  font-size: 35px;
+  font-size: 50px;
   text-align: center;
+  font-family: 'Dancing Script', cursive;
 }
 #about_me {
   display: flex;
   margin: 10px;
   margin-top: 5px;
   border: 1px solid transparent;
-  box-shadow: 5px 10px #fc814a;
+  box-shadow: 5px 10px #009432;
   justify-content: start;
   position: relative;
 }
 #about_me h2{
-  font-size:24px
+  font-size:20px;
+  color :#009432;
+  font-family: 'Goldman', cursive;
 }
 
 #about_me i {
   font-size: 30px;
   margin-right: 8px;
+  color: #EE5A24
 }
 
 #right_about p {
@@ -182,12 +189,18 @@ hr {
   margin: 10px;
   margin-top: 5px;
   border: 1px solid transparent;
-  box-shadow: 5px 10px #fc814a;
+  box-shadow: 5px 10px #009432;
   justify-content: start;
 }
 #education i {
   font-size: 30px;
   margin-right: 8px;
+  color: #1e272e
+}
+
+#education h2{
+  font-size:20px;
+  color:#009432
 }
 .education_list {
   display: flex;
@@ -213,7 +226,7 @@ hr {
   margin: 10px;
   margin-top: 5px;
   border: 1px solid transparent;
-  box-shadow: 5px 10px #fc814a;
+  box-shadow: 5px 10px #009432;
   justify-content: start;
   
 }
@@ -221,6 +234,12 @@ hr {
 #work i {
   font-size: 30px;
   margin-right: 8px;
+  color: #3742fa;
+}
+
+#work h2{
+  font-size:20px;
+  color:#009432
 }
 .exp_list {
   display: flex;
@@ -235,7 +254,4 @@ hr {
 .exp_list div {
   margin-left: 4px;
   
-}
-#work h2{
-  color:#006c67
 }
