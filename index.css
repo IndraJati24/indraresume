@@ -217,9 +217,12 @@ hr {
   margin-right: 8px;
   width: 90px;
   font-size: 14px;
+  flex-basis:25%
 }
 .education_list div {
   margin-left: 5px;
+  flex-basis: 75%;
+  
 }
 
 #right_work {
@@ -256,9 +259,11 @@ hr {
   margin-right: 10px;
   width: 90px;
   font-size: 14px;
+  flex-basis: 25%;
 }
 .exp_list div {
   margin-left: 4px;
+  flex-shrink: 75%;
   
 }
 
