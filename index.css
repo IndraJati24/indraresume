@@ -256,3 +256,11 @@ hr {
   margin-left: 4px;
   
 }
+
+@media only screen and (max-width:768px){
+  #container{
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+  }
+}
