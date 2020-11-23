@@ -55,8 +55,8 @@ hr {
 }
 
 #container {
-  width: 830px;
-  height: 650px;
+  width: 60vw;
+  height: 100vh;
   display: flex;
   margin: auto;
   justify-content: center;
