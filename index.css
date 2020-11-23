@@ -151,6 +151,7 @@ hr {
   font-size: 50px;
   text-align: center;
   font-family: 'Dancing Script', cursive;
+  flex-grow: 1;
 }
 #about_me {
   display: flex;
@@ -160,11 +161,13 @@ hr {
   box-shadow: 5px 10px #009432;
   justify-content: start;
   position: relative;
+  flex-grow: 1;
 }
 #about_me h2{
   font-size:20px;
   color :#009432;
   font-family: 'Goldman', cursive;
+  text-align: left;
 }
 
 #about_me i {
@@ -176,9 +179,10 @@ hr {
 #right_about p {
   margin: 10px;
   margin-top: 15px;
-  height: 100px;
-  width: 400px;
+  /* height: 100px;
+  width: 400px; */
   text-align: justify;
+  flex-grow: 3;
 }
 
 #right_education {
