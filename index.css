@@ -55,7 +55,7 @@ hr {
 }
 
 #container {
-  width: 65vw;
+  width: 70vw;
   height: 100vh;
   display: flex;
   margin: auto;
@@ -152,6 +152,7 @@ hr {
   text-align: center;
   font-family: 'Dancing Script', cursive;
   flex-grow: 1;
+  padding-top: 25px;
 }
 #about_me {
   display: flex;
